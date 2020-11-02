@@ -1,0 +1,25 @@
+{
+  "name": "cdl-server",
+  "version": "1.0.0",
+  "description": "Server for handling CDL Requests",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Liam Toohey",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "compression": "^1.7.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "helmet": "^4.0.0",
+    "morgan": "^1.9.1",
+    "nedb": "^1.8.0",
+    "twilio": "^3.39.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

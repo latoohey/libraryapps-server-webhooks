@@ -1,0 +1,60 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [{
+            "type": "Container",
+            "items": [{
+                "type": "TextBlock",
+                "text": "Digital Textbook Scanning",
+                "weight": "bolder",
+                "size": "medium"
+            }]
+        },
+        {
+            "type": "Container",
+            "items": [{
+                    "type": "TextBlock",
+                    "text": "A Digital Textbook request has been submitted for an item that needs scanning",
+                    "wrap": true
+                },
+                {
+                    "type": "FactSet",
+                    "facts": [{
+                            "title": "Title:",
+                            "value": "⁠title"
+                        },
+                        {
+                            "title": "MMS ID:",
+                            "value": "⁠mms"
+                        },
+                        {
+                            "title": "Call #:",
+                            "value": "⁠call_no"
+                        },
+                        {
+                            "title": "Patron:",
+                            "value": "⁠Requestor DisplayName"
+                        },
+                        {
+                            "title": "Email:",
+                            "value": "⁠email"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": [
+      {
+        "type": "Action.OpenUrl",
+        "title": "View Request",
+        "url": "https://american0.sharepoint.com/sites/LibSystemsAndWeb/Lists/CDL%20Requests/DispForm.aspx?ID=37"
+      },
+      {
+        "type": "Action.OpenUrl",
+        "title": "Find File",
+        "url": "https://american0-my.sharepoint.com/personal/reserves_american_edu/_layouts/15/onedrive.aspx?view=7&q=992948463604102"
+      }
+    ]
+}
